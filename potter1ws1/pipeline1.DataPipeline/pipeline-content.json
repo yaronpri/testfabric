@@ -1,0 +1,24 @@
+{
+  "properties": {
+    "activities": [
+      {
+        "name": "Set variable1",
+        "type": "SetVariable",
+        "dependsOn": [],
+        "policy": {
+          "secureOutput": false,
+          "secureInput": false
+        },
+        "typeProperties": {
+          "variableName": "v1",
+          "value": "a1"
+        }
+      }
+    ],
+    "variables": {
+      "v1": {
+        "type": "String"
+      }
+    }
+  }
+}
